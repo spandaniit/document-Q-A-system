@@ -1,0 +1,15 @@
+import React from "react";
+
+interface Props {
+  text: string;
+}
+
+const SourceCard: React.FC<Props> = ({ text }) => {
+  return (
+    <div className="bg-gray-100 border rounded-lg p-3 text-sm">
+      {text}
+    </div>
+  );
+};
+
+export default SourceCard;
